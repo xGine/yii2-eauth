@@ -10,7 +10,6 @@
 namespace nodge\eauth;
 
 use Yii;
-use yii\base\Application;
 use yii\base\BootstrapInterface;
 
 /**
