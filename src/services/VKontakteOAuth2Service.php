@@ -49,6 +49,11 @@ class VKontakteOAuth2Service extends Service
 
 		$info = $info['response'][0];
 
+
+		if (!empty($tokenData['params']['email'])) {
+			$this->attributes['email'] = $tokenData['params']['email'];
+		}
+
 		$this->attributes['id'] = $info['uid'];
 		$this->attributes['name'] = $info['first_name'] . ' ' . $info['last_name'];
 		$this->attributes['url'] = 'http://vk.com/id' . $info['uid'];
