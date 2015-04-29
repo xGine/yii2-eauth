@@ -90,7 +90,7 @@ Edit your `composer.json` and add:
 ```json
 {
     "require": {
-        "nodge/yii2-eauth": "~2.0"
+        "xgine/yii2-eauth": "2.2.4"
     }
 }
 ```
