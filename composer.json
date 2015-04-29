@@ -7,13 +7,13 @@
 	"license": "New BSD License",
 	"authors": [
 		{
-			"name": "Maxim Zemskov",
-			"email": "nodge@yandex.ru",
-			"homepage": "http://nodge.ru/"
+			"name": "Kevin Troy Lumandas",
+			"email": "troy112233l@yahoo.com",
+			"homepage": "https://github.com/xGine
 		}
 	],
 	"support": {
-		"source": "https://github.com/nodge/yii2-eauth"
+		"source": "https://github.com/xGine/yii2-eauth"
 	},
 	"autoload": {
 		"psr-4": {
@@ -25,7 +25,7 @@
 		"lib-curl": "*",
 		"yiisoft/yii2": "*",
 		"lusitanian/oauth": "~0.3.0",
-		"nodge/lightopenid": "~1.1.0"
+		"iignatov/LightOpenID": "*"
 	},
 	"extra": {
 		"bootstrap": "nodge\\eauth\\Bootstrap"
