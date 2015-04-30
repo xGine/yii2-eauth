@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "xgine/yii2-eauth",
 	"description": "Yii2 EAuth Extension. EAuth allows to authenticate users with accounts on other websites (Google, Facebook, Twitter, etc).",
 	"keywords": ["yii2", "extension", "eauth", "openid", "oauth", "authentication"],

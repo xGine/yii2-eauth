@@ -57,6 +57,7 @@ The implementation of the authorization on your own server has several advantage
 	* VKontake (ru)
 	* Mail.ru (ru)
 	* Odnoklassniki (ru)
+	* Instagram
 
 
 ### Resources

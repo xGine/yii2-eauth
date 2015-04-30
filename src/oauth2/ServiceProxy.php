@@ -57,18 +57,6 @@ class ServiceProxy extends AbstractService
 	}
 
 	/**
-	 * Validate scope
-	 *
-	 * @param string $scope
-	 * @return bool
-	 */
-	public function isValidScope($scope)
-	{
-		$reflectionClass = new \ReflectionClass(get_class($this->service));
-		return in_array($scope, $reflectionClass->getConstants(), true);
-	}
-
-	/**
 	 * @return bool
 	 */
 	public function hasValidAccessToken()
